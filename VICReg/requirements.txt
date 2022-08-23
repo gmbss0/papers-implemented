@@ -1,0 +1,2 @@
+tensorflow>=2.8
+dotmap >=1.3

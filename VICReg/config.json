@@ -1,0 +1,13 @@
+{
+ "representation_dim" : 64,
+ "n_expander_layers": 1,
+ "embedding_dim" : 128,
+ "batch_size" : 16,
+ "learning_rate" : 0.0001,
+ "epochs" : 50,
+ "encoder_1_config" : {"n_channels": [32, 32, 32]},
+ "encoder_2_config" : {"n_layers" : 1, "d_model" : 32,
+                       "num_heads" : 2, "mlp_dim" : 64,
+                       "dropout" : 0.1},
+ "loss_weights" : {"variance" : 1, "invariance" : 1, "covariance" : 1}
+ }
